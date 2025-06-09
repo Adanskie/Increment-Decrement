@@ -1,0 +1,46 @@
+body
+{
+  margin: 0;
+  text-align: center;
+  background-color: mediumaquamarine;
+}
+.container
+{
+  padding : 20px;
+  margin-top: 250px;
+  background-color: cadetblue;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.button
+{
+  padding: 20px;
+  background-color: chocolate;
+  color: springgreen;
+  border-radius: 10px;
+  font-family: verdana;
+  font-size: 20px;
+  box-shadow: 2px 2px 5px black;
+  transition: 0.3s;
+}
+
+.button:hover
+{
+  width: 160px;
+  background-color: darkturquoise;
+}
+
+.button:active
+{
+  background-color: greenyellow;
+  box-shadow: inset 2px 2px 5px black;
+  color: #0145ff;
+}
+
+#Count
+{
+  font-family:Bold;
+  font-size: 40px;
+  color: firebrick;
+}
